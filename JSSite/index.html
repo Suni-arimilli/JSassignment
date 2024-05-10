@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styling.css">
+    <title>My Website</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="header">Welcome to my website</h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a class="a" href="index.html">Home</a></li>
+                <li class="li"><a class="a" href="aboutPage.html">About</a></li>
+                <li class="li"><a class="a" href="hobbiesPage.html">Hobby</a></li>
+                <li class="li" style="display: inline;"><a class="a" href="homePage.html">Hometown</a></li>
+            </ul>
+        </nav>
+        <div class="secondary">
+            <h2 class="h2" style="color: #333; margin-bottom: 10px;">My Favorite Quote</h2>
+            <blockquote class="blockquote">"The way to get started is to quit talking and begin doing."</blockquote>
+        </div>
+    
+        <div class="tertiary">
+            <p style="margin: 0;">&copy; 2023 My Personal Website</p>
+        </div>
+          <section>
+            <img id="home-image" src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/ea/bd/71.jpg" alt="My Hometown" style="width: 300px; height: auto;">
+            <br /><button onclick="toggleHomeImage()">Change Image</button>
+          </section>
+          
+          <section style="margin-bottom:30px;margin-top:30px;">
+              <input type="text" id="required-field" name="required-field" placeholder="Enter 'hello'" >
+              <button type="submit" onclick="checkRequiredField()">Submit</button>
+            <div id="required-field-error" style="display: none;">
+              <p style="color: red;">Please enter 'hello'.</p>
+            </div>
+          </section>
+          <h4>The World’s Best Clothing Brands</h4>
+          <button class="accButton">Nike – United States</button>
+          <div class="accordDescp">
+              <li>Origin: The United States</li>
+              <li>Value: $31.3 billion</li>
+              <li>Key Strengths: Innovation, athletic performance, and a global fan base</li>
+              <li>Fun Fact: Nike’s famous “swoosh” logo was designed by a graphic design student for just $35 in 1971!</li>
+          </div>    
+      
+          <button class="accButton">Louis Vuitton – France</button>
+          <div class="accordDescp">
+              <li>Origin: France</li>
+              <li>Value: $26.3 billion</li>
+              <li>Key Strengths: Luxury leather goods, iconic monogram patterns, and a rich history</li>
+              <li>Fun Fact: Louis Vuitton began as a trunk maker for the French elite in the 19th century.</li>
+          </div>
+          
+          <button class="accButton">Chanel – France</button>
+          <div class="accordDescp">
+            <li>Origin: France</li>
+            <li>Value: $19.4 billion</li>
+            <li>Key Strengths: Timeless fashion, iconic fragrances, and visionary design</li>
+            <li>Fun Fact: The Little Black Dress, introduced by Coco Chanel, remains a fashion staple to this day.</li>
+          </div>
+    </div>
+
+   
+</body>
+<script src="script.js"></script>
+</html>
