@@ -28,4 +28,14 @@ function toggleHomeImage() {
       requiredFieldError.style.display = "block";
     }
   }
+
+  function change1() {
+    document.getElementById("content1").textContent = "Good Morning Again!";
+
+  }
+
+  function change2() {
+    document.getElementById("content2").textContent = "Im Fine!";
+
+  }
   
